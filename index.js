@@ -45,3 +45,8 @@ bookStore.books.forEach(function(book) {
 
   bookList.appendChild(bookContainer);
 });
+// BONUS: Delete element
+const deleteElement = document.getElementById("delete-this");
+if (deleteElement) {
+  deleteElement.remove();
+}
